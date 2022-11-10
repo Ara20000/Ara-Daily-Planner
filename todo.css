@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section-heading {
+margin-bottom: 50px;
+font-weight: bolder;
+font-size: 24px;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 500px;
+}
+
+.form-input {
+    border-radius: 8px;
+    height: 40px;
+    border: 1px solid #123412;
+    padding: 0 16px 0 16px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.form-button {
+    border-radius: 8px;
+    height: 40px;
+    border: 1px solid #123412;
+    font-size: 16px;
+    background-color:  rgb(167, 37, 232);
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.div-main-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.input-checkbox {
+    margin-bottom: 20px;
+}
+
+.newEdit-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.span-todo {
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+.todo-btn {
+    border-radius: 8px;
+    padding: 5px 16px;
+    border: 1px solid transparent;
+    outline: none;
+    box-shadow: none;
+}
+.todo-li {
+    list-style-type: none;
+}
+
+#edit-btn {
+    background-color: rgb(167, 37, 232);
+    color: white;
+    cursor: pointer;
+}
+
+#delete-btn {
+    background-color: goldenrod;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media (max-width:769px) {
+    .form-section {
+        width: 300px;
+    }
+}

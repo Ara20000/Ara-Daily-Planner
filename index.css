@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url("TaskImage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bodySection {
+margin: 50px;
+padding: 30px;
+border: 1px dotted purple;
+border-radius: 16px;
+}
+
+.header {
+    font-family: Playfair Display, serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 50px 0px 30px 0px;
+}
+
+.headerParagraph {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.paragraph5 {
+    margin-bottom: 50px;
+}
+
+.headerBtn {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px 10px;
+    background-color: rgb(167, 37, 232);
+}
+
+.headerAnchor {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media (max-width:769px) {
+    .bodySection{
+        border: none;
+    }
+}
